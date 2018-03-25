@@ -1,0 +1,4 @@
+server:
+  port: 1001
+management:
+  port: 10001
