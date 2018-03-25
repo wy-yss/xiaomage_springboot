@@ -1,13 +1,10 @@
 package com.yss.mapper;
 
-import com.yss.domain.Car;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.Arrays;
 
 /**
  * @Author: yss
@@ -26,6 +23,5 @@ public class CarMapperTest {
 
     @Test
     public void inserts() {
-        carMapper.inserts(Arrays.asList(new Car("bmw", (float) 150000), new Car("本次", (float) 250000)));
     }
 }
